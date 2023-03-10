@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array">
+        <item>Áo nam</item>
+        <item>Áo nữ</item>
+        <item>Quần nam</item>
+        <item>Quần nữ</item>
+        <item>Phụ kiện nam</item>
+        <item>Phụ kiện nữ</item>
+    </string-array>
+</resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+ <item android:title="Quản lý">
+  <menu>
+   <item android:id="@+id/ql_hoadon"
+       android:title="Quản lý hóa đơn"
+       android:icon="@drawable/ic_hoadon"/>
+   <item android:id="@+id/ql_nhanvien"
+       android:title="Quản lý nhân viên"
+       android:icon="@drawable/ic_book_24"/>
+   <item android:id="@+id/ql_sanpham"
+       android:title="Quản lý sản phẩm"
+       android:icon="@drawable/ic_books_24"/>
+
+  </menu>
+ </item>
+ <item android:title="Thống kê">
+  <menu>
+   <item android:id="@+id/tk_top"
+       android:icon="@drawable/ic_top10_24"
+       android:title="TOP bán chạy"/>
+   <item android:id="@+id/tk_doanhThu"
+       android:icon="@drawable/ic_money_24"
+       android:title="Doanh thu"/>
+  </menu>
+ </item>
+ <item android:title="Người dùng">
+  <menu>
+   <item android:id="@+id/ngd_themnv"
+       android:icon="@drawable/ic_person_add_24"
+       android:title="Thêm nhân viên"/>
+   <item android:id="@+id/ngd_doiMK"
+       android:icon="@drawable/ic_baseline_key_24"
+       android:title="Đổi mật khẩu"/>
+   <item android:id="@+id/ngd_dangXuat"
+       android:icon="@drawable/ic_baseline_logout_24"
+       android:title="Đăng xuất"/>
+  </menu>
+ </item>
+</menu>

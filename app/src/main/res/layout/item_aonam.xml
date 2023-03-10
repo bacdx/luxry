@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_aonam"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginBottom="10dp"
+    android:padding="10dp"
+    app:cardCornerRadius="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+
+        android:background="#DDE3EB"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_margin="10dp"
+            android:id="@+id/img_aonam"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            />
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/tv_tenaonam"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="áo Nam"
+                android:textSize="16dp"
+                android:textColor="@color/black"/>
+
+            <TextView
+                android:id="@+id/tv_sol"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Số lượng"
+                android:layout_marginLeft="20dp"
+                android:textSize="16dp"/>
+            <TextView
+                android:id="@+id/gia_aonam"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Giá"
+                android:layout_marginLeft="20dp"
+                android:textSize="16dp"/>
+            />
+        </LinearLayout>
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/imgxoa"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_delete_forever_24"
+            />
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

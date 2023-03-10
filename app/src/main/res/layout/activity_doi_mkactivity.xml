@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:gravity="center"
+
+    android:orientation="vertical">
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+       ></pl.droidsonroids.gif.GifImageView>
+    <EditText
+        android:hint="name user"
+        android:paddingStart="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/login_eduser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/item_input"
+        android:layout_margin="10dp"></EditText>
+
+    <EditText
+        android:id="@+id/login_edpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/item_input"
+        android:drawableStart="@drawable/password"
+        android:drawablePadding="10dp"
+        android:hint="oldPass:"
+        android:inputType="textPassword"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:textColor="@color/black"></EditText>
+
+    <EditText
+        android:paddingStart="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/login_ednewpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="new Pass:"
+        android:background="@drawable/item_input"
+        android:layout_margin="10dp"
+        android:drawableStart="@drawable/password"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"></EditText>
+    <EditText
+        android:paddingStart="10dp"
+        android:textColor="@color/black"
+        android:id="@+id/login_edrenewpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Re new Pass:"
+        android:background="@drawable/item_input"
+        android:layout_margin="10dp"
+        android:drawableStart="@drawable/password"
+        android:paddingLeft="10dp"
+        android:drawablePadding="10dp"></EditText>
+    <TextView
+        android:id="@+id/log"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></TextView>
+   <LinearLayout
+       android:orientation="horizontal"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+       <Button
+           android:layout_weight="1"
+       android:id="@+id/login_btncanle"
+       android:layout_width="wrap_content"
+           android:text="CANLE"
+           android:layout_margin="10dp"
+       android:layout_height="wrap_content"></Button>
+       <Button
+           android:layout_margin="10dp"
+           android:layout_weight="1"
+           android:id="@+id/login_btnlogin"
+           android:layout_width="wrap_content"
+           android:text="OK"
+           android:layout_height="wrap_content"></Button>
+   </LinearLayout>
+</LinearLayout>
