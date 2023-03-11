@@ -112,6 +112,9 @@ public class HoaDonDAO {
         return list.get(0);
     }
 
+    // hi
+    private  void test(){
 
+    }
 
 }
