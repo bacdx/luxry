@@ -5,6 +5,7 @@ import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.util.Log;
 
 import com.example.luxrystore.Database.DBhelper;
 import com.example.luxrystore.model.HoaDon;
@@ -109,6 +110,11 @@ public class HoaDonDAO {
             }
         }
         return list.get(0);
+    }
+
+    // hi
+    private  void test(){
+
     }
 
 }
